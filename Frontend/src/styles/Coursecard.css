@@ -1,0 +1,103 @@
+.course-card {
+    background-color: #E9D8FD;
+    border-radius: 0.375rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25rem;
+    padding: 2.5rem;
+    width: 25%;
+    height: 540px;
+    position: relative;
+    top: 30px;
+    overflow-y: hidden;
+
+    
+    
+  }
+  
+  .course-title {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #4A148C;
+    padding-top: 40px;
+  }
+  
+  .course-image {
+    width: 20rem;
+    height: 15rem;
+  }
+  
+  .course-description {
+    color: black;
+    margin: 0.5rem 1.25rem;
+  }
+  
+ 
+  
+  .view-more-button {
+   
+    margin-left: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
+    color: #60A5FA;
+    cursor: pointer;
+  }
+  
+  .view-more-button:hover {
+    color: #1E40AF;
+  }
+  
+  .learn-more-link {
+    background-color: #7C3AED;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    align-self: flex-start;
+    margin-left: 1.25rem;
+    text-decoration: none;
+  }
+  .course-heading{
+    margin-top: 460px;
+    margin-left: 45%;
+    font-weight: bold;
+    color: black;
+    font-size:30px
+  }
+  
+  .course-heading2{
+    margin-top: 85px;
+    margin-left: 45%;
+    font-weight: bold;
+    color: black;
+    font-size:30px
+  }
+  .learn-more-link:hover {
+    background-color: #6D28D9;
+  }
+
+  /* Button style view all courses */
+  .btn1{
+    background-color:#6D28D9;
+    margin-top: 80px;
+    margin-left: 45%;
+    border: none;
+    color: white;
+  }
+  .btn1:hover{
+    background-color: #844be0;
+  }
+  
+
+  /* Course page */
+
+  .course-div{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+
+  }
+

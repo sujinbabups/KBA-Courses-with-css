@@ -1,0 +1,92 @@
+.hero-section {
+    background-color: #f6f1fc; 
+    color: #190ae6;
+    padding: 2.5rem; 
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem; 
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 60px;
+}
+
+.hero-title {
+    font-weight: bold; 
+    font-size: 1.25rem; 
+}
+
+@media (min-width: 768px) { 
+    .hero-title {
+        font-size: 1.875rem; 
+    }
+}
+
+@media (min-width: 1024px) { 
+    .hero-title {
+        font-size: 2.25rem; 
+    }
+}
+
+.hero-subtitle {
+    margin-top: 1rem; 
+    font-size: 1.125rem; 
+}
+
+@media (min-width: 768px) {
+    .hero-subtitle {
+        font-size: 1.25rem; 
+    }
+}
+
+@media (min-width: 1024px) { 
+    .hero-subtitle {
+        font-size: 1.5rem; 
+    }
+}
+
+.courses-section {
+    background-color: #f6f1fc;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem 0;
+    padding: 2.5rem;
+    text-align: center;
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    height: 70px;
+}
+
+.courses-title {
+    font-weight: bold;
+    font-size: 1.5rem; 
+    color: #0325bd; 
+}
+
+@media (min-width: 768px) { 
+    .courses-title {
+        font-size: 2.25rem; 
+    }
+}
+
+.courses-subtitle {
+    font-weight: 500; 
+    font-size: 1.125rem; 
+    color: #6e46e6; 
+    margin-top: 1rem; 
+}
+
+@media (min-width: 768px) { 
+    .courses-subtitle {
+        font-size: 1.25rem; 
+    }
+}
